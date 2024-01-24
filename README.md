@@ -2,11 +2,11 @@
 
 <p>
   Description: This is a demo project on java tech for testing some real time sample apis from https://fakestoreapi.com/ to perform all the verbs (GET, POST, PUT, DELETE) apis validation
- the apis used in this example is 
-GET: https://fakestoreapi.com/products
-POST: https://fakestoreapi.com/products
-PUT: https://fakestoreapi.com/products/{productnumber}
-DELETE: https://fakestoreapi.com/products/{productnumber}
+ the apis used in this example is<br> 
+GET: https://fakestoreapi.com/products <br>
+POST: https://fakestoreapi.com/products <br>
+PUT: https://fakestoreapi.com/products/{productnumber} <br>
+DELETE: https://fakestoreapi.com/products/{productnumber} <br>
 </p>
 
 
