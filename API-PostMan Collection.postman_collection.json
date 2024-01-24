@@ -1,0 +1,116 @@
+{
+	"info": {
+		"_postman_id": "d6839f46-6407-4699-ae55-f886b689aeb8",
+		"name": "API-PostMan Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32464497",
+		"_collection_link": "https://www.postman.com/jankijoshi/workspace/my-workspace/collection/32464497-d6839f46-6407-4699-ae55-f886b689aeb8?action=share&source=collection_link&creator=32464497"
+	},
+	"item": [
+		{
+			"name": "https://fakestoreapi.com/products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://fakestoreapi.com/products",
+					"protocol": "https",
+					"host": [
+						"fakestoreapi",
+						"com"
+					],
+					"path": [
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://fakestoreapi.com/products",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"title\": \"test product\",\n        \"price\": \"13.5\",\n        \"description\": \"lorem ipsum set\",\n        \"image\": \"https://i.pravatar.cc\",\n        \"category\": \"electronic\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://fakestoreapi.com/products",
+					"protocol": "https",
+					"host": [
+						"fakestoreapi",
+						"com"
+					],
+					"path": [
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://fakestoreapi.com/products/5",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"title\": \"test product\",\n        \"price\": \"14.5\",\n        \"description\": \"lorem ipsum set\",\n        \"image\": \"https://i.pravatar.cc\",\n        \"category\": \"electronic\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://fakestoreapi.com/products/5",
+					"protocol": "https",
+					"host": [
+						"fakestoreapi",
+						"com"
+					],
+					"path": [
+						"products",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://fakestoreapi.com/products/5",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://fakestoreapi.com/products/5",
+					"protocol": "https",
+					"host": [
+						"fakestoreapi",
+						"com"
+					],
+					"path": [
+						"products",
+						"5"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
