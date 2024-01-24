@@ -1,8 +1,8 @@
-<h1> API Testing - Java - using Rest Assured & Cucumber libraries in Bdd framework (GET, POST, PUT, DELETE) apis validation  </h1> <br>
+<h1> API Testing - Java - using Rest Assured, Postman & Cucumber libraries in BDD framework (GET, POST, PUT, DELETE) APIs validation  </h1> <br>
 
 <p>
-  Description: This is a demo project on java tech for testing some real time sample apis from https://fakestoreapi.com/ to perform all the verbs (GET, POST, PUT, DELETE) apis validation
- the apis used in this example is<br> 
+  Description: This is a project on java for testing some real time sample APIs from https://fakestoreapi.com/ to perform all the verbs (GET, POST, PUT, DELETE) APIs validation
+ the APIs used in this example is<br> 
 GET: https://fakestoreapi.com/products <br>
 POST: https://fakestoreapi.com/products <br>
 PUT: https://fakestoreapi.com/products/{productnumber} <br>
